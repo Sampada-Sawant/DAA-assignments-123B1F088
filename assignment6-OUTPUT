@@ -1,0 +1,10 @@
+Enter number of items: 5
+Enter truck capacity (W): 10
+Enter item name, weight and utility value for each item:
+Water 3 10
+Food 4 7
+Medicine 2 15
+Blanket 5 8
+Fuel 6 9
+Maximum total utility: 32
+Items to include in the truck: Water Medicine Blanket
