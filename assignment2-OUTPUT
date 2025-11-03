@@ -1,0 +1,29 @@
+Generating 100000 random movies...
+Select sorting parameter:
+1. IMDB Rating
+2. Release Year
+3. Watch Popularity
+Choice: 1
+--- QuickSort Report ---
+Total Movies Sorted : 100000
+Execution Time : 0.92 seconds
+Approx. Space Used : 38.1 MB (excluding stack)
+First 10 Sorted Movies:
+Movie_48234 | IMDB: 5.0 | Year: 2012 | Popularity: 34567
+Movie_13987 | IMDB: 5.0 | Year: 2007 | Popularity: 23456
+Movie_77543 | IMDB: 5.1 | Year: 2015 | Popularity: 98765
+Movie_22111 | IMDB: 5.1 | Year: 2020 | Popularity: 12345
+Movie_9987 | IMDB: 5.2 | Year: 2003 | Popularity: 45678
+Movie_33456 | IMDB: 5.2 | Year: 2018 | Popularity: 54321
+Movie_55678 | IMDB: 5.3 | Year: 2011 | Popularity: 67890
+Movie_11223 | IMDB: 5.3 | Year: 2019 | Popularity: 34567
+Movie_66789 | IMDB: 5.4 | Year: 2005 | Popularity: 87654
+Movie_44556 | IMDB: 5.4 | Year: 2022 | Popularity: 56789
+--- Complexity Analysis ---
+Time Complexity:
+Best Case : O(n log n)
+Average Case : O(n log n)
+Worst Case : O(n^2) (rare with random pivot)
+Space Complexity:
+Auxiliary Space : O(log n) (recursive stack)
+Stable Sorting : No
