@@ -1,0 +1,36 @@
+Enter number of relief items: 5
+Enter boat weight limit (kg): 50
+Enter details for item 1:
+Name: Food
+Weight (kg): 20
+Utility value: 40
+Is divisible (1 for yes, 0 for no): 1
+Enter details for item 2:
+Name: Water
+Weight (kg): 30
+Utility value: 60
+Is divisible (1 for yes, 0 for no): 1
+Enter details for item 3:
+Name: Medicine
+Weight (kg): 10
+Utility value: 100
+Is divisible (1 for yes, 0 for no): 0
+Enter details for item 4:
+Name: Blanket
+Weight (kg): 15
+Utility value: 30
+Is divisible (1 for yes, 0 for no): 0
+Enter details for item 5:
+Name: Vitamins
+Weight (kg): 5
+Utility value: 50
+Is divisible (1 for yes, 0 for no): 0
+Taking full: Medicine (weight: 10.00, value: 100.00)
+Taking full: Vitamins (weight: 5.00, value: 50.00)
+Taking full: Food (weight: 20.00, value: 40.00)
+Taking fraction: Water (weight: 15.00, value: 30.00)
+Skipping indivisible: Blanket (weight: 15.00)
+Maximum utility value achievable: 220.00
+--- Complexity Report ---
+Time Complexity: O(n log n) due to sorting + O(n) traversal = O(n log n)
+Space Complexity: O(1) auxiliary (in-place sorting), O(n) for storing items
