@@ -1,0 +1,25 @@
+Enter the number of customer orders to sort: 100000
+
+--- Merge Sort Report ---
+Total Orders Sorted : 100000
+Execution Time : 0.38 seconds
+Sorting Correctness : SUCCESS
+Approx. Space Used : 11.44 MB
+
+First 5 Sorted Orders:
+Order ID: 7243 Timestamp: 1700000000220 Details: Order_7243
+Order ID: 33087 Timestamp: 1700000000221 Details: Order_33087
+Order ID: 48012 Timestamp: 1700000000222 Details: Order_48012
+Order ID: 54078 Timestamp: 1700000000225 Details: Order_54078
+Order ID: 93211 Timestamp: 1700000000227 Details: Order_93211
+
+--- Complexity Analysis ---
+Time Complexity:
+Best Case : O(n log n)
+
+Average Case : O(n log n)
+Worst Case : O(n log n)
+
+Space Complexity:
+Auxiliary Space : O(n)
+Stable Sorting : Yes
